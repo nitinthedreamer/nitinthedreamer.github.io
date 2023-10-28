@@ -1,84 +1,92 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
+@publication{Human Agent Teaming,
+  title={Using Speech Patterns to Model the Dimensions of Teamness in Human-Agent Teams},
+  author={Doherty, Emily and Spencer, Cara A and Eloy, Lucca and Kumar*, Nitin and Dickler, Rachel and Hirshfield, Leanne},
+  abstract={Teamness is a newly proposed multidimensional construct aimed to characterize teams and their dynamic levels of interdependence over time. Specifically, teamness is deeply rooted in team cognition literature, considering how a team’s composition, processes, states, and actions affect collaboration. With this multifaceted construct being recently proposed, there is a call to the research community to investigate, measure, and model dimensions of teamness. In this study, we explored the speech content of 21 human-human-agent teams during a remote collaborative search task. Using self-report surveys of their social and affective states throughout the task, we conducted factor analysis to condense the survey measures into four components closely aligned with the dimensions outlined in the teamness framework: social dynamics and trust, affect, cognitive load, and interpersonal reliance. We then extracted features from teams’ speech using Linguistic Inquiry and Word Count (LIWC) and performed Epistemic Network Analyses (ENA) across these four teamwork components as well as team performance. We developed six hypotheses of how we expected specific LIWC features to correlate with self-reported team processes and performance, which we investigated through our ENA analyses. Through quantitative and qualitative analyses of the networks, we explore differences of speech patterns across the four components and relate these findings to the dimensions of teamness. Our results indicate that ENA models based on selected LIWC features were able to capture elements of teamness as well as team performance; this technique therefore shows promise for modeling of these states during CSCW, to ultimately design intelligent systems to promote greater teamness using speech-based measures.},
+  year={2023},
+  month={Oct},
+  pdf={https://dl.acm.org/doi/pdf/10.1145/3577190.3614121}, 
+  doi={https://doi.org/10.1145/3577190.3614121},
   dimensions={true},
-  selected={true}
+  selected={true},
+  publisher={ACM}, 
+  journal={ICMI '23: Proceedings of the 25th International Conference on Multimodal Interaction},
+  preview={Speech HAT.png}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@project{Generative AI,
+  title={Image Defogging Using Conditional Denoising Diffusion Probabilistic Models (DDPMs)},
+  author={Kumar, Nitin and Harilal, Nidhin and Gautam, Tushar},
+  abstract={Fog and haze have long been detrimental factors in obtaining clear and high-quality images, significantly affecting computer vision and image processing applications. Traditional single- image defogging methods often rely on the physical scattering model or utilize machine learning-based techniques. However, these methods have been plagued with limitations, such as the inability to recover fine details, susceptibility to noise, and poor generalization. In this paper, we propose a novel single-image defogging method based on the denoising diffusion probabilistic model, which addresses the shortcomings of existing techniques. Our experiments on Cityscapes benchmark dataset show promising results.},
+  year={2023},
+  month={May},
+  pdf={Diffusion_Defogging__5822_Project_Report.pdf}, 
+  dimensions={true},
+  selected={true},
+  preview={DDPM.png}
+ 
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@project{Deep RL,
+  title={CoAt-DQN: Convolution and Attention Deep Q-Network},
+  author={Kumar, Nitin and Kim, Seonwoo},
+  abstract={Post the advent of Deep Q-Learning, which has been successful in solving Reinforcement learning problems with ease and becoming a state of the art technique, it still had issues in how the agent views the world. The underlying model encoding the visual world ie. CNN, has not been able to model the non- local pixels well leading to misses in these relationships.
+We present an architecture CoAt-DQN which combines CNNs with Transformers by combining attention with convolution and stacking of the individual layers in relevant fashion enabling the advantages of generalization and attention leading to network with better approximation of the Q-values for different actions and the given state, leading to better policies with the improve- ments making the agent view the world better.
+We showcase the reward improvements using Atari Breakout game leading to huge performance improvements especially after 10,000 episodes. We compare the reward outputs with our baseline models DQN and Dueling DQN. Our model, CoAt- DQN shows the fastest improvement and achieves the highest score among the models with 60.8 as its best score for Breakout in 10,000 episode training. Further, We also train our CoAt- DQN model with different batch sizes of 32, 128 and 1024 to further optimize the model. We observe similar performances w.r.t. rewards but training time decreases with increase in batch size.},
+  year={2022},
+  month={Dec},
+  pdf={CoAt_DQN_Final_Report.pdf}, 
+  dimensions={true},
+  selected={true},
+  preview={COAT-DQN.png} 
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@project{NLP,
+  title={Neural Multi-Channel Reverse Dictionary},
+  author={Kumar, Nitin and Das, Rohan},
+  abstract={A reverse dictionary is a system that lets a user search for words based on their description or definition. Reverse Dictionaries have practi- cal benefits in solving the “tip of the tongue’ problem besides being a teaching tool for new language learners. Existing solutions for the re- verse dictionary problem are unable to account for the high variability in the user descriptions and don’t do well when it comes to predict- ing infrequently used words. Moreover, such systems use context free embeddings to encode the descriptions thus ignoring the semantic rela- tionships between the words in the description. We propose a neural reverse dictionary model with linguistic predictors, inspired from how humans infer words from descriptions. Our model uses contextualized embeddings from RoBERTa along with multiple linguistically motivated channel predictors that aim to over- come the issues of sparsity and polysemy. We see very encouraging results that highlight the importance of contextualized embeddings and the grounding of natural language models in linguistic theory.},
+  year={2022},
+  month={May},
+  pdf={Neural Multi-channel reverse dictionary Report.pdf}, 
+  dimensions={true},
+  selected={true},
+  preview={reverse_dict.png} 
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@project{NLP,
+  title={Patronizing and Condescending Language Detection},
+  author={Kumar, Nitin and Das, Rohan and Gautam, Tushar},
+  abstract={
+This report describes the system modeled to solve Task 4: Patronizing and Condescending Language Detection at SemEval 2022. Very specifically the system aims to present a viable solution for Subtask 1: Binary Classification. We fine-tuned two pre-trained language models, RoBERTa [3] and XLNet [4], on this task and performed a range of experiments that involved dataset preprocessing and addressing the substantial dataset imbalance. Our best performing model was a fine-tuned RoBERTa architecture with weighted classes},
+  year={2021},
+  month={Nov},
+  pdf={NLP Project Report.pdf}, 
+  dimensions={true},
+}
+
+@project{NLP,
+  title={3D Single Neuron Reconstruction},
+  author={Sharma, Shubham and Kumar, Nitin and Khoria, Saurabh},
+  abstract={
+    Analysing neuron structure is critical for understanding how they function within neural circuits. Neuron tracing or Neuron reconstruction is a technique used in computational neuroscience to determine the path of neural axons and dendrites from advanced microscopic images. Due to the high complexity of neuron morphology and often seen heavy noise in such images, as well as the typically encountered massive amount of image data, it has been widely viewed as one of the most challenging computational tasks for computational neuroscience. The goal of this project is to develop a completely automatic method for tracing the neuron morphology in 3D.
+Neuron reconstruction is critical to understanding the neuron anatomy. By understanding the single neuron anatomy, it becomes easier to understand the how a particular neuron is connected to other neurons. This also helps us to better understand certain properties like cell-firing etc. Also, knowing the right morphology of the neuron helps us to analyse what changes are seen in its structure with age and certain conditions like stress or disease etc.
+},
+  year={2017},
+  month={May},
+  pdf={BTP Report.pdf}, 
+  dimensions={true},
+  selected={true},
+  preview={neuron-3d.png} 
+}
+
+@project{ Creativity Learning and AI,
+  title={Creativity, Learning and AI},
+  author={Kumar, Nitin},
+  year={2022},
+  month={May},
+  pdf={Creativity, Learning and AI.pdf},
+  dimensions={true},
+  preview={ai_creativity.png}
 }

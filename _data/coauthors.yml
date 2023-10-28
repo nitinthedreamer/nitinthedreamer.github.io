@@ -32,3 +32,19 @@
 "Planck":
   - firstname: ["Max"]
     url: https://en.wikipedia.org/wiki/Max_Planck
+
+"Doherty":
+  - firstname: ["Emily"]
+    url: https://www.colorado.edu/ics/emily-doherty
+
+"Spencer":
+  - firstname: ["Cara", "Cara A"]
+    url: https://www.colorado.edu/ics/cara-spencer-0
+
+"Eloy":
+  - firstname: ["Lucca"]
+    url: https://www.luccaoeloy.com
+
+"Hirshfield":
+  - firstname: ["Leanne"]
+    url: https://www.colorado.edu/ics/leanne-hirshfield

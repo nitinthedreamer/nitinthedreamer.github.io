@@ -91,3 +91,9 @@ html[data-theme='dark'] {
     display: block;
   }
 }
+
+/* Styling for the main author */
+.author em {
+  font-weight: bold;
+  color: var(--global-theme-color);  // Using the theme color
+}

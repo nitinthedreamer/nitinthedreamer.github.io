@@ -12,10 +12,18 @@ layout: default
           <article>
             {{ content }}
           </article>
+          
+          {%- if page.category != null -%}
+            <iframe 
+            src="{{ page.doclink }}"
+            height="1000px" 
+            width="100%"
+            </iframe>
+          {%- endif -%}
 
           {%- if page.related_publications != null and page.related_publications.size > 0 -%}
           {% assign publications = page.related_publications | replace: ", ", "," | split: "," | join: "|" %}
-          <h2>References</h2>
+          <!-- <h2>References</h2> -->
           <div class="publications">
             {% bibliography -f {{ site.scholar.bibliography }} -q @*[key^={{ publications }}]* %}
           </div>
